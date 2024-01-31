@@ -1,5 +1,5 @@
 {% set name = "qdoas2harp" %}
-{% set version = "1.2.2" %}
+{% set version = "1.2.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/UVVIS-BIRA-IASB/qdoas2harp/archive/refs/tags/{{ version }}.tar.gz
-  sha256: b001e169e2e429a04ab58d2de2b94d6aee4707b430620e3cea7d9582813389fc
+  sha256: bf48910d085aa8633e144c069987cdcf9c60e0b87dc9286d74b8cf9401b69b9d
 
 build:
   noarch: python
